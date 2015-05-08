@@ -25,8 +25,8 @@ body{ background:#fffbe6}
 .index .friend .content{ display:table-cell; color:#a42611; background:#fef3b5; border-radius:10px; padding:5px 10px; position:relative; font-size:1.4em}
 .index .friend .content i{position:absolute; width:0; height:0; top:11px; left:-14px; border-width:7px; border-style:dashed solid dashed dashed; border-color:transparent #fef3b5 transparent transparent}
 .index .fudai{ z-index:19; position:absolute; bottom:0; left:50%; margin-left:-140px; width:280px; height:288px; background:url(../images/fudai.png) center bottom no-repeat; background-size:280px}
-.index .fudai .grab_btn{ width:185px; background:#d8533b; display:block; position:absolute; bottom:12px; left:50%; margin-left:-92px; border-radius:8px; text-align:center; color:#ba2e09}
-.index .fudai .grab_btn span{ display:block; background:#ffdc4b; border-radius:8px; font-size:2.2em; margin-bottom:4px; padding:5px 0; font-weight:bold}
+.index .fudai .grab_btn{ width:200px; background:#d8533b; display:block; position:absolute; bottom:12px; left:50%; margin-left:-100px; border-radius:8px; text-align:center; color:#ba2e09}
+.index .fudai .grab_btn span{ display:block; background:#ffdc4b; border-radius:8px; font-size:2.2em; margin-bottom:4px; padding:7px 0; font-weight:bold}
 
 
 .index .fudai .qiu{ z-index:21; position:absolute; width:30px; height:30px; line-height:30px; border-radius:30px; text-align:center; font-family:Arial}
@@ -56,17 +56,17 @@ body{ background:#fffbe6}
 .lottery .number .item{ float:left; color:#d50000; font-family:Arial; font-size:2.4em; background:#b2965b; width:36px; margin-right:5px; border-radius:5px}
 .lottery .number .item span{ background:#fff6db; display:block; border-radius:5px; padding:2px 0; margin-bottom:3px}
 .lottery .number .item.blueitem span{ color:#4aa8da}
-.lottery .date{ color:#d50000; font-size:1.4em; padding:5px 0 70px}
+.lottery .date{ color:#d50000; font-size:1.4em; padding:5px 0 50px}
 .lottery .share_btn{ background:#d8533b; border-radius:8px; display:inline-block; color:#ba2e09}
-.lottery .share_btn span{ display:block; background:#ffdc4b; border-radius:8px; font-size:2.2em; margin-bottom:4px; padding:5px 10px; font-weight:bold}
-.lottery .pool{ color:#6a605e; position:absolute; bottom:9px; left:50%; margin-left:-111px}
-.lottery .pool a{ color:#2da4ff}
+.lottery .share_btn span{ display:block; background:#ffdc4b; border-radius:8px; font-size:2.1em; margin-bottom:4px; padding:7px 14px; font-weight:bold}
+.lottery .pool{ color:#aa3d29; position:absolute; bottom:15px; left:50%; margin-left:-120px; font-size:1.3em}
+.lottery .pool a{ color:#43535c}
 /*填写手机*/
 .phone{ width:240px; margin:30px auto}
-.phone .t{ font-size:1.4em; margin-bottom:5px}
-.phone .t .text{ width:138px; border:1px solid #999; border-radius:3px; line-height:24px; height:24px; margin:0 7px}
-.phone .t .phone_btn{ background:#ffb309; border:0; color:#fff; padding:3px 5px; border-radius:3px; vertical-align:-1px}
-.phone p{ color:#d50000}
+.phone .t{ font-size:1.6em; margin-bottom:5px}
+.phone .t .text{ width:110px; border:1px solid #999; border-radius:3px; line-height:24px; height:24px; margin:0 7px}
+.phone .t .phone_btn{ background:#ffb309; border:0; color:#fff; padding:3px 8px; border-radius:3px; vertical-align:-1px}
+.phone p{ color:#d50000; font-size:1.4em}
 /*彩票已经抢完了*/
 .lotteryover .info{ font-size:2.4em; color:#a24d01; font-weight:bold; padding-top:100px}
 
