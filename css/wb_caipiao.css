@@ -41,13 +41,12 @@ body{ background:#fffbe6}
 .users .item .content .time{ float:right; color:#999}
 .users .item .content .name{ color:#454545}
 .users .item .content .b{ color:#999; font-size:1.4em}
-
+/*抢票须知*/
 .notice{ margin:30px 5px 20px}
 .notice fieldset{ border:1px solid #b8ae85; border-radius:5px}
 .notice legend{ color:#454545; font-size:1.6em}
 .notice p{ color:#999; font-size:}
 .notice p a{ color:#2da4ff}
-
 /*中奖页*/
 .lottery,.lotteryover{ height:330px; background:url(../images/caipiao_bg.jpg) center bottom no-repeat; background-size:cover; position:relative}
 .lottery .sheet,.lotteryover .sheet{ position:absolute; bottom:0; left:50%; margin-left:-155px; width:311px; height:323px; background:url(../images/sheet.png) center bottom no-repeat; background-size:311px; text-align:center}
