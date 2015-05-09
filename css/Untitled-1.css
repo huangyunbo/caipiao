@@ -1,6 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
 
- .fd_banner{position:relative;padding:.36rem 0 0 0;overflow:hidden}
- .fd_banner__line{position:absolute;left:50%;bottom:0;z-index:-1;width:3.20rem;height:2.54rem;margin-left:-1.60rem;background:url(http://static.gtimg.com/vd/act/2015/m_0114_fd/img/fd_buy_line@2x.png) no-repeat center bottom;background-size:100%}
- .fd_banner__t{position:relative;z-index:5;display:block;width:2.00rem;height:.24rem;margin:0 auto;text-indent:-99rem;overflow:hidden;background:url(http://static.gtimg.com/vd/act/2015/m_0114_fd/img/fd_buy__title@2x.png) no-repeat;background-size:100%}.fd_banner__view{position:relative;z-index:5;width:1.60rem;height:2.04rem;margin:0 auto}.fd_banner__img{display:block;width:100%}.fd_banner__tips{position:absolute;top:50%;left:50%;z-index:3;width:1.04rem;height:.32rem;margin:-0.46rem 0 0 .46rem;background:url(http://static.gtimg.com/vd/act/2015/m_0114_fd/img/fd_bainian__title@2x.png) no-repeat 0 -0.28rem;background-size:2.48rem auto}.fd_banner.disable{opacity:.6;padding-top:0}.fd_banner.disable .i-light_mod,.fd_banner.disable .fd_banner__tips{display:none}.fd_banner.disable .fd_banner__img{-webkit-animation:none}@-webkit-keyframes bounceIn{0%,20%,40%,60%,80%,100%{-webkit-transition-timing-function:cubic-bezier(0.215,0.610,0.355,1.000)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97)}100%{opacity:1;-webkit-transform:scale3d(1,1,1)}}.i-light_mod{position:absolute;left:50%;bottom:0;top:0;z-index:2;width:1.60rem;margin-left:-0.80rem}.i-light_l__1,.i-light_l__2,.i-light_r__1,.i-light_r__2,.i-light_t__1,.i-light_t__2,.i-light_t__3,.i-light_t__4,.i-light_t__5{position:absolute}.i-light_l__1{left:.36rem;top:1.38rem;width:.06rem;height:.06rem;border-radius:.06rem;background:rgba(255,211,60,1.0)}.i-light_l__2{left:.38rem;top:1.24rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.4)}.i-light_r__1{right:.10rem;top:1.64rem;width:.06rem;height:.06rem;border-radius:.06rem;background:rgba(255,211,60,1.0)}.i-light_r__2{right:.14rem;top:1.54rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.6)}.i-light_t__1{left:.80rem;top:.95rem;width:.08rem;height:.08rem;border-radius:.08rem;background:rgba(255,211,60,1.0)}.i-light_t__2{left:.66rem;top:.86rem;width:.06rem;height:.06rem;border-radius:.06rem;background:rgba(255,211,60,1.0)}.i-light_t__3{left:.75rem;top:.72rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.8)}.i-light_t__4{left:.88rem;top:.60rem;width:.02rem;height:.02rem;border-radius:.02rem;background:rgba(255,211,60,0.8)}.i-light_t__5{left:.70rem;top:.65rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.6)}.i-light_l__1{opacity:0;-webkit-animation:i_light_lr__1 8.5s .2s linear infinite both}.i-light_l__2{opacity:0;-webkit-animation:i_light_lr__1 6s 1.0s linear infinite both}.i-light_r__1{opacity:0;-webkit-animation:i_light_lr__1 8.5s .2s linear infinite both}.i-light_r__2{opacity:0;-webkit-animation:i_light_lr__1 5s 1.6s linear infinite both}.i-light_t__1{opacity:0;-webkit-animation:i_light_t__1 4s 1.6s linear infinite both}.i-light_t__2{opacity:0;-webkit-animation:i_light_t__1 5s .2s linear infinite both}.i-light_t__3{opacity:0;-webkit-animation:i_light_t__1 6s 1.6s linear infinite both}.i-light_t__4{opacity:0;-webkit-animation:i_light_t__1 4s .4s linear infinite both}.i-light_t__5{opacity:0;-webkit-animation:i_light_t__1 5s 1.4s linear infinite both}@-webkit-keyframes i_light_lr__1{0%{-webkit-transform:translate(0px,0px);opacity:0}25%{-webkit-transform:translate(10px,-30px)}50%{-webkit-transform:translate(-14px,-100px);opacity:1}75%{-webkit-transform:translate(10px,-200px)}100%{-webkit-transform:translate(0px,-300px)}}@-webkit-keyframes i_light_t__1{0%{-webkit-transform:translate(-10px,10px);opacity:0}25%{-webkit-transform:translate(10px,-10px)}50%{-webkit-transform:translate(0px,-30px);opacity:1}75%{-webkit-transform:translate(20px,-70px)}100%{-webkit-transform:translate(0px,-100px)}} 
+.fd_banner{position:relative;padding:.36rem 0 0 0;overflow:hidden}
+.fd_banner__line{position:absolute;left:50%;bottom:0;z-index:-1;width:3.20rem;height:2.54rem;margin-left:-1.60rem;background:url(http://static.gtimg.com/vd/act/2015/m_0114_fd/img/fd_buy_line@2x.png) no-repeat center bottom;background-size:100%}
+.fd_banner__t{position:relative;z-index:5;display:block;width:2.00rem;height:.24rem;margin:0 auto;text-indent:-99rem;overflow:hidden;background:url(http://static.gtimg.com/vd/act/2015/m_0114_fd/img/fd_buy__title@2x.png) no-repeat;background-size:100%}
+.fd_banner__view{position:relative;z-index:5;width:1.60rem;height:2.04rem;margin:0 auto}
+.fd_banner__img{display:block;width:100%}
+.fd_banner__tips{position:absolute;top:50%;left:50%;z-index:3;width:1.04rem;height:.32rem;margin:-0.46rem 0 0 .46rem;background:url(http://static.gtimg.com/vd/act/2015/m_0114_fd/img/fd_bainian__title@2x.png) no-repeat 0 -0.28rem;background-size:2.48rem auto}
+.fd_banner.disable{opacity:.6;padding-top:0}
+.fd_banner.disable .i-light_mod,.fd_banner.disable .fd_banner__tips{display:none}
+.fd_banner.disable .fd_banner__img{-webkit-animation:none}
+@-webkit-keyframes bounceIn{
+	0%,20%,40%,60%,80%,100%{-webkit-transition-timing-function:cubic-bezier(0.215,0.610,0.355,1.000)}
+	0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3)}
+	20%{-webkit-transform:scale3d(1.1,1.1,1.1)}
+	40%{-webkit-transform:scale3d(.9,.9,.9)}
+	60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03)}
+	80%{-webkit-transform:scale3d(.97,.97,.97)}
+	100%{opacity:1;-webkit-transform:scale3d(1,1,1)}
+}
+.i-light_mod{position:absolute;left:50%;bottom:0;top:0;z-index:2;width:1.60rem;margin-left:-0.80rem}
+.i-light_l__1,.i-light_l__2,.i-light_r__1,.i-light_r__2,.i-light_t__1,.i-light_t__2,.i-light_t__3,.i-light_t__4,.i-light_t__5{position:absolute}
+.i-light_l__1{left:.36rem;top:1.38rem;width:.06rem;height:.06rem;border-radius:.06rem;background:rgba(255,211,60,1.0)}
+.i-light_l__2{left:.38rem;top:1.24rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.4)}
+.i-light_r__1{right:.10rem;top:1.64rem;width:.06rem;height:.06rem;border-radius:.06rem;background:rgba(255,211,60,1.0)}
+.i-light_r__2{right:.14rem;top:1.54rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.6)}
+.i-light_t__1{left:.80rem;top:.95rem;width:.08rem;height:.08rem;border-radius:.08rem;background:rgba(255,211,60,1.0)}
+.i-light_t__2{left:.66rem;top:.86rem;width:.06rem;height:.06rem;border-radius:.06rem;background:rgba(255,211,60,1.0)}
+.i-light_t__3{left:.75rem;top:.72rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.8)}
+.i-light_t__4{left:.88rem;top:.60rem;width:.02rem;height:.02rem;border-radius:.02rem;background:rgba(255,211,60,0.8)}
+.i-light_t__5{left:.70rem;top:.65rem;width:.04rem;height:.04rem;border-radius:.04rem;background:rgba(255,211,60,0.6)}
+.i-light_l__1{opacity:0;-webkit-animation:i_light_lr__1 8.5s .2s linear infinite both}
+.i-light_l__2{opacity:0;-webkit-animation:i_light_lr__1 6s 1.0s linear infinite both}
+.i-light_r__1{opacity:0;-webkit-animation:i_light_lr__1 8.5s .2s linear infinite both}
+.i-light_r__2{opacity:0;-webkit-animation:i_light_lr__1 5s 1.6s linear infinite both}
+.i-light_t__1{opacity:0;-webkit-animation:i_light_t__1 4s 1.6s linear infinite both}
+.i-light_t__2{opacity:0;-webkit-animation:i_light_t__1 5s .2s linear infinite both}
+.i-light_t__3{opacity:0;-webkit-animation:i_light_t__1 6s 1.6s linear infinite both}
+.i-light_t__4{opacity:0;-webkit-animation:i_light_t__1 4s .4s linear infinite both}
+.i-light_t__5{opacity:0;-webkit-animation:i_light_t__1 5s 1.4s linear infinite both}
+@-webkit-keyframes i_light_lr__1{
+	0%{-webkit-transform:translate(0px,0px);opacity:0}
+	25%{-webkit-transform:translate(10px,-30px)}
+	50%{-webkit-transform:translate(-14px,-100px);opacity:1}
+	75%{-webkit-transform:translate(10px,-200px)}
+	100%{-webkit-transform:translate(0px,-300px)}
+}
+@-webkit-keyframes i_light_t__1{
+	0%{-webkit-transform:translate(-10px,10px);opacity:0}
+	25%{-webkit-transform:translate(10px,-10px)}
+	50%{-webkit-transform:translate(0px,-30px);opacity:1}
+	75%{-webkit-transform:translate(20px,-70px)}
+	100%{-webkit-transform:translate(0px,-100px)}
+} 
