@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<div class="index dishide" id="index">
+<div class="index hidden" id="index">
 	<div class="friend">
     	<div class="headimg"><img src="http://wx.qlogo.cn/mmopen/Q3auHgzwzM4pkQFqmqBjsb8iaAp3vLJnUOJkhhJwmibnob4WcldwYbQ0UTQYA4nPzMFq516dsXYufCpZp5qVHKCs8qAbRibO1klQibwuukLCCXk/132"></div>
         <div class="content">
@@ -30,7 +30,7 @@
 	<i class="qiu qiu_22">22</i>
 </div><!--/index-->
 
-<div class="users dishide" id="users">
+<div class="users hidden" id="users">
 	<div class="item">
     	<div class="headimg"><img src="http://wx.qlogo.cn/mmopen/Q3auHgzwzM4pkQFqmqBjsb8iaAp3vLJnUOJkhhJwmibnob4WcldwYbQ0UTQYA4nPzMFq516dsXYufCpZp5qVHKCs8qAbRibO1klQibwuukLCCXk/132"></div>
         <div class="content">
@@ -137,7 +137,7 @@
     </div>
 </div><!--/users-->
 
-<div class="lottery dishide" id="lottery">
+<div class="lottery hidden" id="lottery">
 	<div class="sheet">
         <div class="info">恭喜你抢到一张彩票</div>
         <div class="number">
@@ -151,13 +151,13 @@
         </div>
         <div class="date">开奖日期:2015-05-12(周二)</div>
         
-        <a href="javascript:;" class="share_btn"><span>分享朋友圈，再得一张</span></a>
+        <a href="javascript:;" class="share_btn" id="share_btn"><span>分享朋友圈，再得一张</span></a>
         
         <p class="pool">您已经获得2张彩票，关注玩吧，<a href="javascript:;">查看彩票</a></p>
     </div>
 </div><!--/lottery-->
 
-<div class="phone dishide" id="phone">
+<div class="phone hidden" id="phone">
 	<div class="t">手机号<input type="text" class="text" value="13812341234"><input type="button" value="提交" class="phone_btn"></div>
     <p>*格式不对</p>
     <p>*您只有填手机号，中奖了我们才能通知到您</p>
@@ -165,7 +165,7 @@
 </div><!--/phone-->
 
 
-<div class="lotteryover dishide" id="lotteryover">
+<div class="lotteryover hidden" id="lotteryover">
 	<div class="sheet">
         <div class="info">彩票已经抢完了</div>
     </div>
@@ -179,22 +179,49 @@
         </p>
     </fieldset>
 </div>
+
+<!--<div class="wxguide" id="wxguide">
+	<a href="javascript:;" id="wxguide_btn" class="wxguide_btn"></a>
+    <i class="arrow"></i>
+    <div class="border">
+        <div class="text">分享到朋友圈</div>
+        <div class="text2">即可再得一张</div>
+    </div>
+    <div class="close"><i class="close_x"></i><i class="close_y"></i></div>
+</div>-->
 <script type="text/javascript" src="js/zepto.min.js"></script>
 <script type="text/javascript">
-var whichone = 1;
+var whichone = 2;
 switch (whichone){
 	case 1:
-		$("#index").removeClass("dishide");
-		$("#users").removeClass("dishide");
+		$("#index").removeClass("hidden");
+		$("#users").removeClass("hidden");
 		break;
 	case 2:
-		$("#lottery").removeClass("dishide");
-		$("#phone").removeClass("dishide");
+		$("#lottery").removeClass("hidden");
+		$("#phone").removeClass("hidden");
 		break;
 	case 3:
-		$("#lotteryover").removeClass("dishide");
+		$("#lotteryover").removeClass("hidden");
 		break;
 }
+
+//分享朋友圈，再得一张
+$("#share_btn").click(function(){
+	var _sharehtml = '<div class="wxguide" id="wxguide">'+
+						'<a href="javascript:;" id="wxguide_btn" class="wxguide_btn"></a>'+
+    					'<i class="arrow"></i>'+
+    					'<div class="border">'+
+        					'<div class="text">分享到朋友圈</div>'+
+        					'<div class="text2">即可再得一张</div>'+
+    					'</div>'+
+    					'<div class="close"><i class="close_x"></i><i class="close_y"></i></div>'+
+					'</div>';
+	$("body").append(_sharehtml);
+});
+$("body").delegate("#wxguide_btn", "click", function(){
+	$("#wxguide").remove();
+});
 
 </script>
 </body>
