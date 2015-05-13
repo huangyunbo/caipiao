@@ -250,11 +250,10 @@ $("body").on("click", "#wxguide_btn", function(){
 	$("#wxguide").remove();
 });
 function loading(){
-	var _loadinghtml = '<div class="loading"><i class="soma"></i><i class="head"></i><p>加载中...</p></div>';
-	$("#wxguide").append(_loadinghtml);
-	$("body").off("click", "#wxguide_btn");
+	$("#wxguide").remove();
+	var _loadinghtml = '<div class="wxguide" id="loadingbg"><div class="loading"><i class="soma"></i><i class="head"></i><p>加载中...</p></div></div>';
+	$("body").append(_loadinghtml);
 }
-
 </script>
 </body>
 </html>
