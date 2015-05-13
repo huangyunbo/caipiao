@@ -244,16 +244,15 @@ $("#share_btn").click(function(){
     					'<div class="close"><i class="close_x"></i><i class="close_y"></i></div>'+
 					'</div>';
 	$("body").append(_sharehtml);
-	loading();
+	//loading();
 });
-$("body").delegate("#wxguide_btn", "click", function(){
+$("body").on("click", "#wxguide_btn", function(){
 	$("#wxguide").remove();
 });
-
 function loading(){
 	var _loadinghtml = '<div class="loading"><i class="soma"></i><i class="head"></i><p>加载中...</p></div>';
 	$("#wxguide").append(_loadinghtml);
-	
+	$("body").off("click", "#wxguide_btn");
 }
 
 </script>
