@@ -77,20 +77,20 @@ body{ background:#fffbe6}
 .users .item .headimg{ width:74px; display:table-cell; text-align:center; vertical-align:top}
 .users .item .headimg img{ width:44px; height:44px; border-radius:44px}
 .users .item .content .t{ overflow:hidden; font-size:1.6em; vertical-align:top}
-.users .item .content .time{ float:right; color:#999}
+.users .item .content .time{ float:right; color:#999; font-size:1.4rem}
 .users .item .content .name{ color:#454545}
 .users .item .content .b{ color:#999; font-size:1.4em}
 /*抢票须知*/
 .notice{ margin:30px 5px 20px}
 .notice fieldset{ border:1px solid #b8ae85; border-radius:5px}
 .notice legend{ color:#454545; font-size:1.6em}
-.notice p{ color:#999; font-size:}
+.notice p{ color:#999; font-size:1.2em}
 .notice p a{ color:#2da4ff}
 /*中奖页*/
 .lottery,.lotteryover{ height:330px; background:url(../images/caipiao_bg.jpg) center bottom no-repeat; background-size:cover; position:relative}
 .lottery .sheet,.lotteryover .sheet{ position:absolute; bottom:0; left:50%; margin-left:-155px; width:311px; height:323px; background:url(../images/sheet.png) center bottom no-repeat; background-size:311px; text-align:center}
 .lottery .info{ font-size:2.4em; color:#a24d01; font-weight:bold; padding:50px 0 20px}
-.lottery .info2{ font-size:1.9em; color:#a24d01; font-weight:bold; padding:50px 0 28px}
+.lottery .info2{ font-size:2.4em; color:#a24d01; font-weight:bold}
 .lottery .number{ overflow:hidden; padding-left:14px}
 .lottery .number .item{ float:left; color:#d50000; font-family:Arial; font-size:2.4em; background:#b2965b; width:36px; margin-right:5px; border-radius:5px}
 .lottery .number .item span{ background:#fff6db; display:block; border-radius:5px; padding:2px 0; margin-bottom:3px}
@@ -98,7 +98,7 @@ body{ background:#fffbe6}
 .lottery .date{ color:#d50000; font-size:1.4em; padding:5px 0 50px}
 .lottery .share_btn{ background:#d8533b; border-radius:8px; display:inline-block; color:#ba2e09}
 .lottery .share_btn span{ display:block; background:#ffdc4b; border-radius:8px; font-size:2.1em; margin-bottom:4px; padding:7px 15px; font-weight:bold}
-.lottery .pool{ color:#aa3d29; position:absolute; bottom:15px; left:50%; margin-left:-119px; font-size:1.3em}
+.lottery .pool{ color:#aa3d29; position:absolute; bottom:15px; left:50%; margin-left:-130px; font-size:1.4em}
 .lottery .pool a{ color:#43535c}
 /*填写手机*/
 .phone{ width:280px; margin:30px auto}
@@ -110,19 +110,30 @@ body{ background:#fffbe6}
 .lotteryover .info{ font-size:2.4em; color:#a24d01; font-weight:bold; padding-top:100px}
 /*微信引导*/
 .wxguide{ width:100%; height:100%; position:fixed; z-index:9000; top:0; left:0; background:rgba(0,0,0,0.8); overflow:hidden}
-.wxguide .wxguide_btn{ position:absolute; width:100%; height:100%; z-index:2}
+.wxguide .wxguide_btn{ position:absolute; width:100%; height:100%; z-index:10}
 .wxguide .arrow{ background:url(../images/arrow.png) no-repeat; background-size:53px; width:53px; height:56px; position:absolute; top:5px; right:20px; }
 .wxguide .border{ width:280px; height:90px; border:2px dashed #ececec; position:absolute; top:58px; right:28px; border-radius:20px; display:block; text-align:center}
 .wxguide .text{ color:#fbbc0e; font-size:2.2em; padding:11px 0 0}
 .wxguide .text2{ color:#fff; font-size:2.2em}
-.wxguide .close{ position:absolute; width:30px; height:30px;text-align:center; background:#ececec; top:134px; right:15px;border-radius:30px;}
+.wxguide .close{ position:absolute; width:30px; height:30px;text-align:center; background:#ececec; top:134px; right:15px;border-radius:30px}
 .wxguide .close_x,.wxguide .close_y{ width:22px; height:2px; background:#000; position:absolute; left:4px; top:14px; transform:rotate(45deg); -webkit-transform:rotate(45deg)}
 .wxguide .close_y{ transform:rotate(-45deg); -webkit-transform:rotate(-45deg)}
-
-
-
-
-
-
+/*小乌龟加载*/
+.loading{ width:100px; height:82px; position:absolute; top:180px; left:50%; text-align:center; margin-left:-50px; z-index:5}
+.loading .soma{ background:url(../images/loading.gif) no-repeat; background-size:100px; width:84px; height:53px; position:absolute; left:-5px; top:0; -webkit-animation:i_loading_soma 1.5s linear 0s infinite normal}
+.loading .head{ background:url(../images/loading.gif) -84px 0 no-repeat; background-size:100px; width:26px; height:53px; position:absolute; left:79px; top:0; -webkit-animation:i_loading_head 1.5s linear 0s infinite normal}
+.loading p{ display:inline-block; color:#fff; margin-top:58px; font-size:1.6em}
+@-webkit-keyframes i_loading_soma{
+	0%{ -webkit-transform:translate(0,0)}
+	25%{ -webkit-transform:translate(0,0)}
+	85%{ -webkit-transform:translate(10px,0)}
+	100%{ -webkit-transform:translate(0,0)}
+}
+@-webkit-keyframes i_loading_head{
+	0%{ -webkit-transform:translate(0,0)}
+	25%{ -webkit-transform:translate(10px,0)}
+	85%{ -webkit-transform:translate(10px,0)}
+	100%{ -webkit-transform:translate(0,0)}
+}
 
 

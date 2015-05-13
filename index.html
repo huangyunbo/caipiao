@@ -159,7 +159,7 @@
 
 <div class="lottery hidden" id="lottery2">
 	<div class="sheet">
-        <div class="info2">恭喜您，由于分享又获得一张彩票</div>
+        <div class="info">恭喜您</div>
         <div class="number">
         	<div class="item"><span>01</span></div>
             <div class="item"><span>02</span></div>
@@ -170,6 +170,8 @@
             <div class="item blueitem"><span>07</span></div>
         </div>
         <div class="date">开奖日期:2015-05-12(周二)</div>
+        
+        <div class="info2">由于分享又获得一张彩票</div>
         
         <p class="pool">您已经获得2张彩票，关注玩吧，<a href="http://mp.weixin.qq.com/s?__biz=MzAxMjM5NTAxMA==&mid=205482714&idx=1&sn=ddeb79041dfaf293e07c35d329ca135c#rd">查看彩票</a></p>
     </div>
@@ -189,6 +191,7 @@
     </div>
 </div><!--/lottery-->
 
+
 <div class="notice">
 	<fieldset>
     	<legend>抢票须知</legend>
@@ -207,9 +210,10 @@
     </div>
     <div class="close"><i class="close_x"></i><i class="close_y"></i></div>
 </div>-->
+<!--<div class="loading"><i class="soma"></i><i class="head"></i><p>加载中...</p></div>-->
 <script type="text/javascript" src="js/zepto.min.js"></script>
 <script type="text/javascript">
-var whichone = 1;
+var whichone = 2;
 switch (whichone){
 	case 1:
 		$("#index").removeClass("hidden");
@@ -240,10 +244,17 @@ $("#share_btn").click(function(){
     					'<div class="close"><i class="close_x"></i><i class="close_y"></i></div>'+
 					'</div>';
 	$("body").append(_sharehtml);
+	loading();
 });
 $("body").delegate("#wxguide_btn", "click", function(){
 	$("#wxguide").remove();
 });
+
+function loading(){
+	var _loadinghtml = '<div class="loading"><i class="soma"></i><i class="head"></i><p>加载中...</p></div>';
+	$("#wxguide").append(_loadinghtml);
+	
+}
 
 </script>
 </body>
