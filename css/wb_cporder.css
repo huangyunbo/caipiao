@@ -24,6 +24,8 @@ body{ background:#fffbe6}
 .order .list .item:last-child{ border:none}
 .order .list .text{ font-size:1.8em; padding:70px 0; color:#454545}
 .order .list .text a{ color:#2da4ff}
+.ball_red{ color:#f54646; margin-right:5px}
+.ball_blue{ color:#39f; margin-right:5px}
 /*抢票须知*/
 .notice{ margin:30px 5px 20px}
 .notice fieldset{ border:1px solid #b8ae85; border-radius:5px}
