@@ -98,8 +98,8 @@ body{ background:#fffbe6}
 .lottery .date{ color:#d50000; font-size:1.4em; padding:5px 0 50px}
 .lottery .share_btn{ background:#d8533b; border-radius:8px; display:inline-block; color:#ba2e09}
 .lottery .share_btn span{ display:block; background:#ffdc4b; border-radius:8px; font-size:2.1em; margin-bottom:4px; padding:7px 15px; font-weight:bold}
-.lottery .pool{ color:#aa3d29; position:absolute; bottom:15px; left:50%; margin-left:-130px; font-size:1.4em}
-.lottery .pool a{ color:#43535c}
+.lottery .pool{ color:#aa3d29; position:absolute; bottom:15px; left:50%; margin-left:-144px; font-size:1.4em}
+.lottery .pool a{ color:#000; text-decoration:underline; font-weight:bold}
 /*填写手机*/
 .phone{ width:280px; margin:30px auto}
 .phone .t{ font-size:1.6em; margin-bottom:5px}
