@@ -177,6 +177,15 @@
     </div>
 </div><!--/lottery-->
 
+<div class="lottery hidden" id="lead">
+	<div class="sheet">
+        <div class="info">你已经领过彩票了</div>
+        <div class="date">开奖日期:2015-05-12(周二)</div>
+        
+        <p class="pool">您已经获得2张彩票，关注玩吧，<a href="http://mp.weixin.qq.com/s?__biz=MzAxMjM5NTAxMA==&mid=205482714&idx=1&sn=ddeb79041dfaf293e07c35d329ca135c#rd">查看彩票</a></p>
+    </div>
+</div><!--/lottery-->
+
 <div class="phone hidden" id="phone">
 	<div class="t">手机号<input type="text" class="text" value="13812341234"><input type="button" value="提交" class="phone_btn"></div>
     <p>*格式不对</p>
@@ -213,7 +222,7 @@
 <!--<div class="loading"><i class="soma"></i><i class="head"></i><p>加载中...</p></div>-->
 <script type="text/javascript" src="js/zepto.min.js"></script>
 <script type="text/javascript">
-var whichone = 2;
+var whichone = 4;
 switch (whichone){
 	case 1:
 		$("#index").removeClass("hidden");
@@ -228,6 +237,10 @@ switch (whichone){
 		$("#phone").removeClass("hidden");
 		break;
 	case 4:
+		$("#lead").removeClass("hidden");
+		$("#phone").removeClass("hidden");
+		break;
+	case 5:
 		$("#lotteryover").removeClass("hidden");
 		break;
 }

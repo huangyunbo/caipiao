@@ -87,8 +87,8 @@ body{ background:#fffbe6}
 .notice p{ color:#999; font-size:1.2em}
 .notice p a{ color:#2da4ff}
 /*中奖页*/
-.lottery,.lotteryover{ height:330px; background:url(../images/caipiao_bg.jpg) center bottom no-repeat; background-size:cover; position:relative}
-.lottery .sheet,.lotteryover .sheet{ position:absolute; bottom:0; left:50%; margin-left:-155px; width:311px; height:323px; background:url(../images/sheet.png) center bottom no-repeat; background-size:311px; text-align:center}
+.lottery,.lotteryover,.prevention{ height:330px; background:url(../images/caipiao_bg.jpg) center bottom no-repeat; background-size:cover; position:relative}
+.lottery .sheet,.lotteryover .sheet,.prevention .sheet{ position:absolute; bottom:0; left:50%; margin-left:-155px; width:311px; height:323px; background:url(../images/sheet.png) center bottom no-repeat; background-size:311px; text-align:center}
 .lottery .info{ font-size:2.4em; color:#a24d01; font-weight:bold; padding:50px 0 20px}
 .lottery .info2{ font-size:2.4em; color:#a24d01; font-weight:bold}
 .lottery .number{ overflow:hidden; padding-left:14px}
@@ -108,6 +108,8 @@ body{ background:#fffbe6}
 .phone p{ color:#d50000; font-size:1.4em}
 /*彩票已经抢完了*/
 .lotteryover .info{ font-size:2.4em; color:#a24d01; font-weight:bold; padding-top:100px}
+/*彩票中心需要你*/
+.prevention .info{ font-size:1.8em; color:#a24d01; padding:60px 18px 0; text-align:left; text-indent:2em}
 /*微信引导*/
 .wxguide{ width:100%; height:100%; position:fixed; z-index:9000; top:0; left:0; background:rgba(0,0,0,0.8); overflow:hidden}
 .wxguide .wxguide_btn{ position:absolute; width:100%; height:100%; z-index:10}
