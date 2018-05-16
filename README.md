@@ -1,6 +1,6 @@
 # caipiao
 
-这是一个H5彩票活动Demo.
+这是一个H5彩票活动Demo
 
 ![caipiao icon](https://github.com/huangyunbo/caipiao/raw/master/images/fudai.png)
 
